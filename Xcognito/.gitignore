@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Databases & local state
+*.db
+*.sqlite3
+backend/fraud/registrations.db
+
+# Build outputs
+dist/
+build/
+.vite/
+
+# Environment & IDE
+.env
+.env.local
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
